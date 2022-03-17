@@ -1,0 +1,21 @@
+#!/bin/zsh
+
+# Count the total affected directories
+function gitb() {
+  TOTAL_NUM=0
+
+  # Traversal all the items in current directory, find the directories which contains .git
+  for dir in $(ls); do
+    if [ -d "$dir/.git" ]; then
+      cd $dir
+      TOTAL_NUM=$(expr $TOTAL_NUM + 1)
+      echo ---------------------$dir---------------------
+      git $*
+      echo ""
+      cd ..
+    fi
+  done
+
+  echo "Total $TOTAL_NUM directories completed."
+}
+gitb "$@"
