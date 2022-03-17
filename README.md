@@ -4,7 +4,7 @@
 
 `brew tap MadeInChina/homebrew-taps`
 
-`brew install gitbatch` or `brew install --build-from-source gitbatch`
+`brew install gitb` or `brew install --build-from-source gitb`
 
 # How to using
 
