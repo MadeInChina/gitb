@@ -3,6 +3,7 @@
 # How to install
 
 `brew tap MadeInChina/homebrew-taps`
+
 `brew install gitbatch` or `brew install --build-from-source gitbatch`
 
 # How to using
