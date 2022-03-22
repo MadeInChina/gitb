@@ -34,5 +34,15 @@ From org.madeinchian/user-service
 Updating e9a4813..f2d1327
 Fast-forward
  pom.xml                                                                                          |  38 ++++++++++++++++++++++----------------
+ 
+➜ ~ gitb branch --show-current
+---------------------gateway---------------------
+development
+
+---------------------user-service---------------------
+development
+
+Total 2 directories completed.
+ 
 ```
 
